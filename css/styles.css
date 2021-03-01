@@ -25,7 +25,7 @@ h1{
 }
 
 #terrain{
-    background-image: url("../assets/ring.jpg");
+    background-image: url("assets/ring.jpg");
     width: 48vw;
     height: 30vw;
     object-fit: cover;
