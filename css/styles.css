@@ -1,0 +1,130 @@
+html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:steelblue;
+}
+
+h1{
+    text-align: center;
+    font-size: 3vw;
+    color: floralwhite;
+}
+
+#head{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.imgtop{
+    width: 2vw;
+    height: 2vw;
+    padding: 1vw;
+}
+
+#terrain{
+    background-image: url("./assets/ring.jpg");
+    width: 48vw;
+    height: 30vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#score-panel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vw; 
+    margin: 0 4vw 4vw 4vw;
+    padding: 0vw 3vw;
+    font-size: 7vw;
+    color: whitesmoke;
+    background-color:steelblue;
+    border-radius: 10%;  
+}
+
+#players{
+    display: flex;
+    width: 100%;
+    color: steelblue;
+    font-size: 4vw;
+    justify-content: space-around;
+}
+
+
+#playerchoice{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2vw;
+} 
+
+.buttonchoice{
+    width: 10vw;
+    height: 10vw;
+    background-color: Transparent;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;  
+}
+
+img{
+    width: 10vw;
+    height: 10vw;
+    cursor: pointer;
+}
+
+#result{
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 2vw;
+    color: floralwhite;
+}
+
+
+.info{
+    z-index: 1000; 
+    position: absolute; 
+    width: 10vw; 
+    height: 5vw; 
+    text-align: center; 
+    left:21%; 
+    background-color: azure; 
+    border-color: mediumslateblue; 
+    padding: 2vw; 
+    margin-top: 3.5vw; 
+    border-radius: 10%;
+    word-wrap: break-word;
+    font-size: 1vw;
+}
+
+.noinfo{
+    z-index: 1000; 
+    position: absolute; 
+    width: 10vw; 
+    height: 5vw; 
+    text-align: center; 
+    left:21%; 
+    background-color: azure; 
+    border: 3px dashed mediumblue;
+    padding: 2vw; 
+    margin-top: 3.5vw; 
+    border-radius: 10%;
+    word-wrap: break-word;
+    font-size: 1vw;
+    display: none;
+}
+
+ul {
+    margin-left:0;
+    padding-left:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
